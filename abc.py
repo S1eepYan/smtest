@@ -1,8 +1,8 @@
 #coding=utf-8
 import  xml.dom.minidom
 
-sourcemonitor_path = top_dir 
-cmd=export sourcemonitor_path=" + sourcemonitor_path + ";wine " + sourcemonitor_path + " /C commands.xml"
+#sourcemonitor_path = top_dir 
+#cmd=export sourcemonitor_path=" + sourcemonitor_path + ";wine " + sourcemonitor_path + " /C commands.xml"
 #打开xml文档
 dom = xml.dom.minidom.parse('test.xml')
 
