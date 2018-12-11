@@ -10,9 +10,11 @@ install:
     - aarch64-linux-gnu-gcc -v
     - aarch64-linux-gnu-g++ -v
     - sudo apt-get install cppcheck
+    - sudo apt-get install wine
 
 script: 
     - make clean	
     - make
     - ./ascend
     - cppcheck ./*.cpp --enable=all
+    - wine SourceMonitor.exe /C cd.xml
