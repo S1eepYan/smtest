@@ -18,3 +18,4 @@ script:
     - ./ascend
     - cppcheck ./*.cpp --enable=all
     - wine SourceMonitor.exe /C cd.xml
+    - ll
